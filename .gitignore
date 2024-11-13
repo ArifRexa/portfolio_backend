@@ -24,7 +24,7 @@ staticfiles/
 media/
 
 # Django migrations
-**/migrations/*
+
 
 # IDE/editor files
 .vscode/
