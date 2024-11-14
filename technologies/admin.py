@@ -9,7 +9,7 @@ class TechnologyAdmin(admin.ModelAdmin):
 
 
 @admin.register(Tech_Type)
-class TechnologyAdmin(admin.ModelAdmin):
+class TechnologyTypeAdmin(admin.ModelAdmin):
     list_display = ('type_name', 'description', 'created_at', 'updated_at')
     search_fields = ('type_name',)
     list_display_links = ('type_name',)
